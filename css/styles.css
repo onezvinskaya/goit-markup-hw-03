@@ -1,0 +1,319 @@
+:root {
+  --main-text-cl: #757575;
+  --accent-cl: #2196F3;
+  --black: #212121;
+  --gray:#757575;
+  --white: #ffffff;
+  --dark-bg:#2F303A;
+  --light-bg: #E5E5E5;
+  --white-bg:#FFFFFF;
+  --light-grey-bg:#F5F4FA;
+  --blue:#2196F3;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-text-cl);
+  background-color: var(--light-bg);
+margin: 0px;
+}
+ul {
+    list-style: none;
+}
+
+.webstudio-header {
+    background-color: var(--white-bg);
+
+}
+.logo-header {
+font-family: Raleway, sans-serif;
+font-size: 26px;
+line-height: 1.17;
+text-decoration: none;
+color: var(--black);
+}
+
+.logo-colored {
+    color: var(--blue);
+}
+
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--black);
+}
+.site-nav a:hover {
+    color: var(--accent-cl);
+}
+.site-nav a:focus {
+    color: var(--accent-cl);
+}
+.site-nav .link.current {
+    color: var(--accent-cl);
+}
+.contacts-header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--gray);
+}
+.contacts-header a:hover {
+    color: var(--blue);
+}
+.contacts-header a:focus {
+    color: var(--blue);
+}
+.main-section {
+    color: var(--white-bg);
+    background-color: var(--dark-bg);
+}
+
+.main-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button-primery {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--black);
+    background-color: var(--light-grey-bg);
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 10px 32px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid transparent;
+}
+.button-primery:hover {
+color: var(--white);
+    background-color: var(--accent-cl);
+    }
+.button-primery:focus {
+    color: var(--white);
+    background-color: var(--accent-cl);
+    }
+    
+    
+    .advantages-list {
+    background-color: var(--light-bg);
+    }    
+    .advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.advantages-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-text-cl);
+}
+
+.directions {
+    background-color: var(--light-bg);
+}
+.directions-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color:  var(--black);
+}
+.team-section {
+    background-color: var(--light-grey-bg);
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--black);
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--black);
+}
+.team-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--main-text-cl);
+}
+.footer {
+    background-color: var(--dark-bg);
+}
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--white);
+}
+.footer a {
+    color: var(--white);
+}
+.address-geo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white);
+}
+.contacts-style a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+.contacts-style a:hover  {
+    color: var(--accent-cl);
+
+}
+.contacts-style a:focus  {
+    color: var(--accent-cl);
+
+}
+.portfolio-header{
+    background-color: var(--white-bg);
+}
+.portfolio-nav a {
+     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--black);
+}
+.portfolio-nav a:hover {
+    color: var(--accent-cl);
+    }
+ 
+.portfolio-nav a:focus {
+    color: var(--accent-cl);
+
+}
+.portfolio-nav .link.current {
+    color: var(--accent-cl);
+}
+.contacts-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+.portfolio-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--black);
+    background-color: var(--light-bg);
+}
+.portfolio-menu a {
+    color: var(--black);
+}
+.portfolio-menu:hover {
+    color:  var(--blue);
+}
+.portfolio-menu:focus {
+    color:  var(--blue);
+}
+.examples-menu {
+    background-color: var(--light-bg);
+}
+.examples-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--black);
+}
+.examples-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.87;
+    color: var(--main-text-cl);
+}
+.button-secondary {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--black);
+    background-color: var(--light-grey-bg);
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 22px;
+    border: 1px solid transparent;
+    }
+
+.button-secondary:hover {
+color: var(--white);
+    background-color: var(--accent-cl);
+    }
+.button-secondary:focus {
+    color: var(--white);
+    background-color: var(--accent-cl);
+    }
+    
+.contacts-style {
+    font-style: normal;
+}
+.container-header {
+       margin-left: auto;
+       margin-right: auto;
+       width: 1170px;    
+       background-color: plum;
+       outline: 4px solid turquoise;
+    }
+
+    .container {
+       margin-left: auto;
+       margin-right: auto;
+       width: 1170px;
+    outline: 2px solid red;}
+
+.footer-container {
+    margin-left: auto;
+       margin-right: auto;
+       width: 1170px;
+    outline: 2px solid teal;}
+
+
+
+    
+
+
+
+/*цвет заголовков #212121;
+/* цвет текста #757575;
+/*цвет текста при ховере #2196F3;
+/* темный цвет фона #2F303A;
+/* фон хедера #FFFFFF;
+/* фон секций о преимуществе и направлениях, мейна вебстудии #E5E5E5
+/* фон секции о команде #F5F4FA
+/* акцент фона кнопки #2196F3
+/* цвет текста адреса и телефон в футере rgba(255, 255, 255, 0.6);
+/*цвет заголовка героя #FFFFFF;
