@@ -94,10 +94,13 @@ margin-right: 93px;
 .contacts-header a:focus {
     color: var(--blue);
 }
-.contacts-header {
+.contacts-item  {
     display: flex;
-    margin-left: auto;
+    margin-left: 331px;
+   
+
 }
+
 .main-section {
     color: var(--white-bg);
     background-color: var(--dark-bg);
