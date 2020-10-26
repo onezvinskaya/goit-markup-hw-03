@@ -94,11 +94,14 @@ margin-right: 93px;
 .contacts-header a:focus {
     color: var(--blue);
 }
-.contacts-item  {
+.contacts-items  {
     display: flex;
     margin-left: 331px;
    
 
+}
+.contacts-item {
+    margin-left: 50px;
 }
 
 .main-section {
@@ -117,6 +120,7 @@ margin-right: 93px;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+
    
 
 }
@@ -165,8 +169,14 @@ color: var(--white);
     font-size: 14px;
     line-height: 1.71;
     color: var(--main-text-cl);
+    margin-right: 30px;
 }
-
+.container .advantages-list {
+    display: flex;
+}
+.container .list {
+    display: flex;
+}
 .directions {
     background-color: var(--light-bg);
 }
@@ -178,6 +188,9 @@ color: var(--white);
     line-height: 1.17;
     color:  var(--black);
     text-align: center;
+}
+.directions-item {
+    margin-right: 30px;
 }
 .team-section {
     background-color: var(--light-grey-bg);
@@ -207,6 +220,8 @@ color: var(--white);
     font-size: 16px;
     line-height: 1.17;
     color: var(--main-text-cl);
+    margin-right: 30px;
+    text-align: center;
 }
 .footer {
     background-color: var(--dark-bg);
