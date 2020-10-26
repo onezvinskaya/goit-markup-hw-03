@@ -273,8 +273,8 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--black);
 }
 .portfolio-nav {
-    display: flex
-    ;
+    display: flex;
+    text-align: center;
 }
 
 .portfolio-nav .item:not(:last-child) {
@@ -291,7 +291,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-nav .link.current {
     color: var(--accent-cl);
 }
-.portfolio-nav .link {
+.portfolio-nav .item {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -300,6 +300,13 @@ color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+}
+.portfolio-contacts {
+    display: flex;
+    margin-left: 331px;
+}
+.portfolio-contacts .item {
+    margin-left: 50px;
 }
 .portfolio-menu {
     font-weight: 500;
@@ -317,6 +324,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-menu:focus {
     color:  var(--blue);
 }
+
 .examples-menu {
     background-color: var(--light-bg);
 }
@@ -333,6 +341,7 @@ color: rgba(255, 255, 255, 0.6);
     line-height: 1.87;
     color: var(--main-text-cl);
 }
+
 .button-secondary {
     display: inline-block;
     font-family: inherit;
@@ -383,7 +392,6 @@ color: var(--white);
     margin: 0;
     list-style: none;
 }
-  
 
 
 /*цвет заголовков #212121;
