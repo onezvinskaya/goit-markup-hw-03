@@ -40,8 +40,13 @@ font-size: 26px;
 line-height: 1.17;
 text-decoration: none;
 color: var(--black);
+margin-right: 93px;
 }
-
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .logo-colored {
     color: var(--blue);
 }
@@ -53,6 +58,9 @@ color: var(--black);
     text-decoration: none;
     color: var(--black);
 }
+.site-nav {
+    display: flex;
+}
 .site-nav a:hover {
     color: var(--accent-cl);
 }
@@ -62,12 +70,23 @@ color: var(--black);
 .site-nav .link.current {
     color: var(--accent-cl);
 }
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .contacts-header a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     text-decoration: none;
     color: var(--gray);
+
 }
 .contacts-header a:hover {
     color: var(--blue);
@@ -75,19 +94,28 @@ color: var(--black);
 .contacts-header a:focus {
     color: var(--blue);
 }
+.contacts-header {
+    display: flex;
+    margin-left: auto;
+}
 .main-section {
     color: var(--white-bg);
     background-color: var(--dark-bg);
+    text-align: center;
+    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
-    text-align: center;
+   
+
 }
 .button-primery {
     display: inline-block;
@@ -117,8 +145,11 @@ color: var(--white);
     
     .advantages-list {
     background-color: var(--light-bg);
+    padding: 94px;
     }    
     .advantages-title {
+        margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
@@ -126,6 +157,7 @@ color: var(--white);
     color: var(--black);
 }
 .advantages-item {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -136,27 +168,38 @@ color: var(--white);
     background-color: var(--light-bg);
 }
 .directions-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color:  var(--black);
+    text-align: center;
 }
 .team-section {
     background-color: var(--light-grey-bg);
+    padding: 94px;
+
 }
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--black);
+    text-align: center;
 }
 .team-member {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     color: var(--black);
+    margin: 0;
 }
 .team-item {
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
@@ -164,6 +207,8 @@ color: var(--white);
 }
 .footer {
     background-color: var(--dark-bg);
+    padding: 60px;
+    text-align: left;
 }
 .logo-footer {
     font-family: Raleway, sans-serif;
@@ -173,6 +218,7 @@ color: var(--white);
     color: var(--white);
 }
 .footer a {
+    padding: 60px;
     color: var(--white);
 }
 .address-geo {
@@ -208,6 +254,14 @@ color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     color: var(--black);
 }
+.portfolio-nav {
+    display: flex
+    ;
+}
+
+.portfolio-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 .portfolio-nav a:hover {
     color: var(--accent-cl);
     }
@@ -218,6 +272,11 @@ color: rgba(255, 255, 255, 0.6);
 }
 .portfolio-nav .link.current {
     color: var(--accent-cl);
+}
+.portfolio-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .contacts-header {
     font-weight: 500;
@@ -250,6 +309,7 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--black);
 }
 .examples-item {
+     margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.87;
@@ -285,7 +345,6 @@ color: var(--white);
        margin-left: auto;
        margin-right: auto;
        width: 1170px;    
-       background-color: plum;
        outline: 4px solid turquoise;
     }
 
@@ -299,12 +358,14 @@ color: var(--white);
     margin-left: auto;
        margin-right: auto;
        width: 1170px;
-    outline: 2px solid teal;}
-
-
-
-    
-
+       outline: 2px solid teal;
+       }
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
 
 
 /*цвет заголовков #212121;
