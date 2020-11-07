@@ -342,7 +342,7 @@ width: 1200px;
     font-size: 16px;
     line-height: 1.62;
     color: var(--black);
-    background-color: var(--light-bg);
+    background-color: var(--white-bg);
 }
 .portfolio-menu a {
     color: var(--black);
