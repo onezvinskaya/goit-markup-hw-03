@@ -119,7 +119,6 @@ margin-right: 93px;
     color: var(--white-bg);
     background-color: var(--dark-bg);
     text-align: center;
-    margin-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -163,7 +162,8 @@ color: var(--white);
     
     .advantages-list {
     background-color: var(--light-bg);
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     }    
     .advantages-title {
         margin-top: 0;
@@ -195,31 +195,36 @@ color: var(--white);
 }
 .directions {
     background-color: var(--light-bg);
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .directions-title {
-    margin-top: 0p;
-    margin-bottom: 50px;
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color:  var(--black);
     text-align: center;
-    padding-top: 94px;
+  
 }
-.directions-item {
-    margin-right: 30px;
-}
+.directions-item:not(:last-child){
+    margin-right:30px;
+    }
+
+    .directions-item {
+        margin-top: 50px;
+    }
 .team-section {
     background-color: var(--light-grey-bg);
     margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 
 }
 
 .team-title {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -228,15 +233,15 @@ color: var(--white);
 }
 .team-member {
     margin-bottom: 10px;
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     color: var(--black);
-    margin: 0;
+  
 }
 .team-item {
     margin-top: 0;
-    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
@@ -244,10 +249,17 @@ color: var(--white);
     margin-right: 30px;
     text-align: center;
 }
+.team-item::not(:last-child)
+{margin-right: 30px;
+
+}
 
 .card {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -299,6 +311,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 .contacts-style {
     margin-top: 20px;
+}
+.address-geo > .a {
+    margin-top: 0;
 }
 
 .portfolio-header{
@@ -408,7 +423,7 @@ color: rgba(255, 255, 255, 0.6);
    .examples-link {
        padding-bottom: 20px;
        display: block;
-       border: 1px solid;
+      
 
    }
 .button-secondary {
